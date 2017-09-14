@@ -1,0 +1,400 @@
+#map {
+        height: 200px;
+        width: 100%;
+}
+.container {
+	margin: 0px;
+}
+.background {
+	background-image: url("../images/COSandDunesBeerBackpack.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.background2 {
+	background-image: url("../images/CNEveWL1.jpg");
+	background-size: cover;
+}
+.panel {
+	margin-bottom: 0px;
+	border-radius: 2px;
+}
+.panel-body {
+	margin-bottom: 0px !important;
+}
+.panel-header {
+	color: #d9d9d9;
+	font-size: 24px;
+	font-family: 'Lobster', cursive;
+	-webkit-text-stroke: .25px black;
+	background: -webkit-linear-gradient(#700, #135);
+	/*border: 1px solid #d9d9d9;*/
+	letter-spacing: 1.4px;
+	margin-bottom: 0px !important;
+}
+
+.Germany {
+	background-image: url("../images/PanelPhotos/BerlinShellHaus.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.Japan {
+	background-image: url("../images/PanelPhotos/Kyoto-shiShrineRV.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.USA {
+	background-image: url("../images/PanelPhotos/KSKCSymphonyBW.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.France {
+	background-image: url("../images/PanelPhotos/EiffelArc.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.Greece {
+	background-image: url("../images/PanelPhotos/AthensNightViewRV.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.Philippines {
+	background-image: url("../images/PanelPhotos/PHTaalVolcano.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.CzechRep {
+	background-image: url("../images/PanelPhotos/PragueOurLady.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.TheNetherlands {
+	background-image: url("../images/PanelPhotos/NLGroningenColors1Smaller.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.China {
+	background-image: url("../images/PanelPhotos/CNColorfulLanterns.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.Italy {
+	background-image: url("../images/PanelPhotos/VeneziaColorsReEdit.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.TheUnitedKingdom {
+	background-image: url("../images/PanelPhotos/London.Horse.Guard.RV.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.Belgium {
+	background-image: url("../images/PanelPhotos/BruggeBWAlleyRV.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	border-top: 2px solid #d9d9d9;
+}
+.about {
+	height: 600px;
+	width: 100%;
+}
+.row {
+	vertical-align: middle;
+}
+.btn {
+	font-size: 30px;
+	color: #d9d9d9;
+	width: 220px;
+	position: relative;
+	top: 200px;
+	right: 75px;
+	-webkit-text-stroke: .25px black;
+	background: -webkit-linear-gradient(#700, #135);
+	border: 1px solid #d9d9d9;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 1px;
+}
+.upload-Button, #upload-Button {
+	font-size: 20px;
+	color: #d9d9d9;
+	width: 100%;
+	-webkit-text-stroke: .25px black;
+	background: -webkit-linear-gradient(#700, #135);
+	border: 1px solid #d9d9d9;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 1px;
+}
+#upload-Button {
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.upload-Button {
+	height: 40px;
+	padding: 5px 5px 5px 5px;
+}
+.btn:hover {
+	color: #d9d9d9
+
+}
+.name {
+	color: #990000;
+	position: relative;
+	top: 275px;
+	left: -425px;
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+	font-style: italic;
+	padding-bottom: 10px;
+	letter-spacing: 3px;
+	-webkit-text-stroke: .30px #d9d9d9;
+	background: -webkit-linear-gradient(#700, #135);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+#navbarbs {
+	float: left;
+	position: relative;
+	left: 40px;
+	letter-spacing: 1.5px;
+}
+.navbar {
+	height: 80px;
+}
+.navbar-body {
+	position: relative;
+	top: -50px;
+}
+input {
+	border-radius: 10px;
+	text-align: center;
+}
+#search-text-input {
+	color: #d9d9d9;
+	position: relative;
+	top: 250px;
+	left: -465px;
+	height: 40px;
+	width: 200px;
+	border: 1px solid #d9d9d9;
+}
+.search-query {
+	background: url("../images/photographersilhouette.png") no-repeat right;
+	
+
+
+}
+.search-submit {
+	font-size: 30px;
+	color: #d9d9d9;
+	width: 220px;
+	position: relative;
+	top: 160px;
+	right: -480px;
+	-webkit-text-stroke: .25px black;
+	background: -webkit-linear-gradient(#700, #135);
+	border: 1px solid #d9d9d9;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	float: left;
+
+}
+hr {
+	position: relative;
+	top: 230px;
+	left: -266px;
+	background: -webkit-linear-gradient(#135, #700);
+	/*border: 1px solid #d9d9d9;*/
+	height: 7px;
+	border-radius: 5px;
+	width: 620px;
+}
+.glyphicon-search {
+	margin-top: 5px;
+
+}
+#logo {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: -5px;
+}
+.navbar {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ul {
+	text-align: left;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	-webkit-text-stroke: 1px #700 !important;
+	
+}
+.nav {
+	-webkit-text-stroke: 1px #700 !important;
+}
+.navbar {
+	width: 100%;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
+    -webkit-transition-delay: 2.5s; /* Safari */
+    transition-delay: 2.5s;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
+	transform: rotateY(180deg);
+}
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+/* flip the pane when hovered */
+/*
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  -webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}*/
+.flip-container,
+.front,
+.back {
+  width: 250px;
+  height: 275px;
+  margin-bottom: 40px;
+}
+/* flip speed
+goes here */
+
+.flipper {
+  -webkit-transition: 0.65s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.65s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.65s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.65s;
+	transform-style: preserve-3d;
+  
+  position: relative;
+}
+/* hide back of pane during swap */
+
+.front,
+.back {
+  -webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+/* back, initially hidden pane */
+
+.back {
+  -webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+/*.vertical.flip-container {
+  position: relative;
+}
+.vertical .back {
+  transform: rotateX(180deg);
+}
+.vertical.flip-container .flipper {
+  transform-origin: 100% 213.5px;
+  /* half of height */
+/*}*/
+/*.vertical.flip-container:hover .flipper {
+  transform: rotateX(-180deg);
+}*/
+
+
+#userInput {
+	display: none;
+}
+
+#profilepic {
+	width: 200px;
+	height: 200px;
+
+}
+
+.smaller {
+	height: 200px;
+	width: 100%;
+}
+.panel-default {
+	width: 250px;
+	
+}
